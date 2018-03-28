@@ -1,0 +1,19 @@
+{
+  "name": "vscode-typescript-debugging",
+  "version": "1.0.0",
+  "devDependencies": {
+    "typescript": "^2.7.2"
+  },
+  "scripts": {
+    "start": "node out/app.js",
+    "prestart": "npm run build",
+    "build": "tsc"
+  },
+  "keywords": [
+    "VS Code",
+    "TypeScript",
+    "Debugging"
+  ],
+  "author": "Philipp Kief",
+  "license": "MIT"
+}
